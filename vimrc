@@ -31,9 +31,10 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle 'AutoClose'
+"Bundle 'AutoClose'
 Bundle 'FencView.vim'
 Bundle 'ShowTrailingWhitespace'
+Bundle "pangloss/vim-javascript"
 
 filetype plugin indent on
 syntax on
