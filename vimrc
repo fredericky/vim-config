@@ -7,10 +7,11 @@ set background=dark
 set ruler
 
 " tab settings
-set tabstop=2
+set tabstop=8
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set encoding=utf-8
 
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 set autoindent
@@ -31,7 +32,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle 'AutoClose'
+""Bundle 'AutoClose'
 Bundle 'FencView.vim'
 Bundle 'ShowTrailingWhitespace'
 
